@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bingo</title>
+  <link rel="stylesheet" href="styles.css">
+  <!-- Link to the sweet alert library -->
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.7.1/dist/sweetalert2.all.min.js"></script>
+  <link href="https://cdn.jsdelivr.net/npm/sweetalert2@11.7.1/dist/sweetalert2.min.css" rel="stylesheet">
+</head>
+
+<body id="body">
+  <!-- Icons -->
+  <div class="colores">
+    <input type="color" name="fondo" id="fondo">
+    <img id="icon" src="./icons/gears-solid.svg" />
+  </div>
+  <!-- The game board -->
+  <div class="container">
+    <div class="container-title">
+      <h1 class="title_game">Bingo</h1>
+      <h1 class="title" id="title"></h1>
+    </div>
+    <div class="back">
+      <div class="bingo-board">
+        <div class="row">
+          <div class="column">
+            <div class="letter" style="color: #007bff;">B</div>
+            <div class="numbers">
+              <!-- Números del 1 al 15 irán aquí -->
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="column">
+            <div class="letter" style="color: #28a745;">I</div>
+            <div class="numbers">
+              <!-- Números del 16 al 30 irán aquí -->
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="column">
+            <div class="letter" style="color: #d3ab32f3;">N</div>
+            <div class="numbers">
+              <!-- Números del 31 al 45 irán aquí -->
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="column">
+            <div class="letter" style="color: #dc3545;">G</div>
+            <div class="numbers">
+              <!-- Números del 46 al 60 irán aquí -->
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="column">
+            <div class="letter" style="color: #353636f8;">O</div>
+            <div class="numbers">
+              <!-- Números del 61 al 75 irán aquí -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <footer class="footer">
+    <p>Derechos reservados® Máximus Producciones 3212089000.</p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+
+</html>
